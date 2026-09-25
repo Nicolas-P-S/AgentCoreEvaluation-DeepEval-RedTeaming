@@ -24,7 +24,6 @@ from test_cases import GOLDEN_DATASET
 
 
 def rodar_caso(caso):
-    """Executa todos os turnos de um caso na mesma sessão (simula multi-turno de verdade)."""
     session_id = nova_sessao()
     respostas = []
 
