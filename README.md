@@ -40,7 +40,7 @@ O agente não deve responder sobre assuntos fora desse domínio, nem solicitar o
 | Faithfulness | ≥ 0,8 | DeepEval |
 | Answer Relevancy | ≥ 0,7 | DeepEval |
 | G-Eval de Conformidade de Domínio | ≥ 0,8 | DeepEval |
-| Avaliadores integrados (Faithfulness, Refusal, Instruction Following) | conforme padrão AgentCore | AgentCore Evaluations |
+| Avaliadores integrados (Faithfulness, Helpfulness, Goal sucess rate) | conforme padrão AgentCore | AgentCore Evaluations |
 | Avaliador customizado (`pixel-preco-com-ferramenta`) | ≥ 4/5 | AgentCore Evaluations |
 
 **Modelo juiz:** Amazon Nova Pro, escolhido por ser mais forte que o modelo do agente (Nova Lite) em instruction-following e julgamento estruturado.
